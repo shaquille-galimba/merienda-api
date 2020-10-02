@@ -11,14 +11,15 @@
 * logo
 
 ### Associations
-* has_many menus
+* has_many items
 
-## Menu
+## Item
 
 ### Attributes
 * name
 * price
 * image
+* store_id
 
 ### Associations
 * belongs_to store
