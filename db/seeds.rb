@@ -39,3 +39,8 @@ Item.create(name: "Classic Lemonade(16oz)", price: 39, image: "https://scontent-
 Item.create(name: "Tteokbokki", price: 125, image: "https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/120161244_149789993481747_1746864882115635758_n.jpg?_nc_cat=106&_nc_sid=8bfeb9&_nc_ohc=TPKvA0Iu3n0AX-Vqq35&_nc_ht=scontent-atl3-1.xx&oh=151d8e01b42a0340eedaab4f14e97fcc&oe=5FA2DB63", store: craveEat)
 
 Item.create(name: "Japchae Party Pack", price: 750, image: "https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/120084034_149789893481757_7302012572883328312_n.jpg?_nc_cat=107&_nc_sid=8bfeb9&_nc_ohc=DzoX77AId4EAX9kJe0D&_nc_ht=scontent-atl3-1.xx&oh=f9fd7819e22e90231817bfc3036beb94&oe=5FA1F040", store: craveEat)
+
+Item.all.each do |item|
+	item.description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+	item.save
+end
