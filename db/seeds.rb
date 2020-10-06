@@ -35,3 +35,7 @@ Item.create(name: "Blueberry Lemonade(16oz)", price: 55, image: "https://sconten
 Item.create(name: "Classic Lemonade(bottled)", price: 50, image: "https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/118663952_125371242614035_3424461243699212231_n.jpg?_nc_cat=110&_nc_sid=8bfeb9&_nc_ohc=2HYgi9ZNm_oAX8JM79W&_nc_ht=scontent-mia3-2.xx&oh=d4cde3bf7b6a2c473ea84bc554cd6ee5&oe=5F9D2A6A", store: kkQuenchers)
 
 Item.create(name: "Classic Lemonade(16oz)", price: 39, image: "https://scontent-mia3-1.xx.fbcdn.net/v/t1.0-9/118663952_125371262614033_426351621499884771_n.jpg?_nc_cat=100&_nc_sid=8bfeb9&_nc_ohc=gvuB6WW9sRcAX-R12l_&_nc_ht=scontent-mia3-1.xx&oh=b9cc41948bc47433b7cf3c209e2f3b74&oe=5F9ADFFC", store: kkQuenchers)
+
+Item.create(name: "Tteokbokki", price: 125, image: "https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/120161244_149789993481747_1746864882115635758_n.jpg?_nc_cat=106&_nc_sid=8bfeb9&_nc_ohc=TPKvA0Iu3n0AX-Vqq35&_nc_ht=scontent-atl3-1.xx&oh=151d8e01b42a0340eedaab4f14e97fcc&oe=5FA2DB63", store: craveEat)
+
+Item.create(name: "Japchae Party Pack", price: 750, image: "https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/120084034_149789893481757_7302012572883328312_n.jpg?_nc_cat=107&_nc_sid=8bfeb9&_nc_ohc=DzoX77AId4EAX9kJe0D&_nc_ht=scontent-atl3-1.xx&oh=f9fd7819e22e90231817bfc3036beb94&oe=5FA1F040", store: craveEat)
