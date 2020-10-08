@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 	namespace :api do
 		namespace :v1 do
 			resources :stores, only: [:index]
+			resources :items, only: [:create]
 		end
 	end
 end
