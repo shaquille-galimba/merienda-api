@@ -24,23 +24,21 @@ kkQuenchers = Store.create(
 	logo: "https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/117434834_106798467804646_1685484019218922180_o.jpg?_nc_cat=110&_nc_sid=09cbfe&_nc_ohc=RjC1-67MT5UAX_hO_Yb&_nc_ht=scontent-mia3-2.xx&oh=5d541eb633a3e60a2bb2e8d455cbeae0&oe=5F9A7866"
 )
 
-Item.create(name: "Kimchi", price: 135, image: "https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/119963643_147186503742096_8024949979478927797_n.jpg?_nc_cat=107&_nc_sid=8bfeb9&_nc_ohc=PcvvfMm0IqkAX9OHDXY&_nc_ht=scontent-mia3-2.xx&oh=16aeaa1a82aa8550855a172131772dac&oe=5F9AC8D4", store: craveEat)
+Item.create(name: "Kimchi", price: 135, image: "https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/119963643_147186503742096_8024949979478927797_n.jpg?_nc_cat=107&_nc_sid=8bfeb9&_nc_ohc=PcvvfMm0IqkAX9OHDXY&_nc_ht=scontent-mia3-2.xx&oh=16aeaa1a82aa8550855a172131772dac&oe=5F9AC8D4", description: "Spicy salted and fermented napa cabbage", store: craveEat)
 
-Item.create(name: "Rabokki", price: 155, image: "https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/120107163_149790333481713_857312582108436178_n.jpg?_nc_cat=105&_nc_sid=e3f864&_nc_ohc=r_BE544ZtoYAX9jJutn&_nc_ht=scontent-mia3-2.xx&oh=32f0785f93b1e474519e2db238a7b4e2&oe=5F9D2285", store: craveEat)
+Item.create(name: "Rabokki", price: 155, image: "https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/120107163_149790333481713_857312582108436178_n.jpg?_nc_cat=105&_nc_sid=e3f864&_nc_ohc=r_BE544ZtoYAX9jJutn&_nc_ht=scontent-mia3-2.xx&oh=32f0785f93b1e474519e2db238a7b4e2&oe=5F9D2285", description: "Ramyeon noodles with stir-fried rice cakes and egg", store: craveEat)
 
-Item.create(name: "Japchae", price: 130, image: "https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/120201421_149790020148411_4028257714230480952_n.jpg?_nc_cat=105&_nc_sid=8bfeb9&_nc_ohc=Ob0SDje-NoIAX8FKRWP&_nc_ht=scontent-mia3-2.xx&oh=9f5bcb1869ec8955b8ee008f35a2eff8&oe=5F9A2DBD", store: craveEat)
+Item.create(name: "Japchae", price: 130, image: "https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/120201421_149790020148411_4028257714230480952_n.jpg?_nc_cat=105&_nc_sid=8bfeb9&_nc_ohc=Ob0SDje-NoIAX8FKRWP&_nc_ht=scontent-mia3-2.xx&oh=9f5bcb1869ec8955b8ee008f35a2eff8&oe=5F9A2DBD", description: "Korean stir-fried glass noodles", store: craveEat)
 
-Item.create(name: "Blueberry Lemonade(16oz)", price: 55, image: "https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/118775742_125371309280695_7714891086080541962_n.jpg?_nc_cat=102&_nc_sid=8bfeb9&_nc_ohc=nzYb8wxeAJcAX_o9s-3&_nc_ht=scontent-mia3-2.xx&oh=27a079d60c69c6afa09a88121aafe8df&oe=5F9A2D91", store: kkQuenchers)
 
-Item.create(name: "Classic Lemonade(bottled)", price: 50, image: "https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/118663952_125371242614035_3424461243699212231_n.jpg?_nc_cat=110&_nc_sid=8bfeb9&_nc_ohc=2HYgi9ZNm_oAX8JM79W&_nc_ht=scontent-mia3-2.xx&oh=d4cde3bf7b6a2c473ea84bc554cd6ee5&oe=5F9D2A6A", store: kkQuenchers)
+Item.create(name: "Classic Lemonade(bottled)", price: 50, image: "https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/118663952_125371242614035_3424461243699212231_n.jpg?_nc_cat=110&_nc_sid=8bfeb9&_nc_ohc=2HYgi9ZNm_oAX8JM79W&_nc_ht=scontent-mia3-2.xx&oh=d4cde3bf7b6a2c473ea84bc554cd6ee5&oe=5F9D2A6A", description: "Add 15php to add yakult or honey, 10php to add tea", store: kkQuenchers)
 
-Item.create(name: "Classic Lemonade(16oz)", price: 39, image: "https://scontent-mia3-1.xx.fbcdn.net/v/t1.0-9/118663952_125371262614033_426351621499884771_n.jpg?_nc_cat=100&_nc_sid=8bfeb9&_nc_ohc=gvuB6WW9sRcAX-R12l_&_nc_ht=scontent-mia3-1.xx&oh=b9cc41948bc47433b7cf3c209e2f3b74&oe=5F9ADFFC", store: kkQuenchers)
+Item.create(name: "Blueberry Lemonade(bottled)", price: 55, image: "https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/118768740_125371175947375_8435719567772365743_n.jpg?_nc_cat=101&_nc_sid=8bfeb9&_nc_ohc=isPKPD1Co04AX89swij&_nc_ht=scontent-atl3-1.xx&oh=035419debad1ceba637b29f27dd59e4a&oe=5FB2554E", description: "Also available in 16oz for 45php", store: kkQuenchers)
 
-Item.create(name: "Tteokbokki", price: 125, image: "https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/120161244_149789993481747_1746864882115635758_n.jpg?_nc_cat=106&_nc_sid=8bfeb9&_nc_ohc=TPKvA0Iu3n0AX-Vqq35&_nc_ht=scontent-atl3-1.xx&oh=151d8e01b42a0340eedaab4f14e97fcc&oe=5FA2DB63", store: craveEat)
+Item.create(name: "Cucumber Lemonade(bottled)", price: 60, image: "https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/118796459_125371469280679_2454982990283388102_n.jpg?_nc_cat=109&_nc_sid=8bfeb9&_nc_ohc=hi72_XdQQUMAX-m-f8g&_nc_ht=scontent-atl3-1.xx&oh=4edce4f62687e04866a1c4a757f17ab7&oe=5FB405D0", description: "Also available in 16oz for 49php", store: kkQuenchers)
 
-Item.create(name: "Japchae Party Pack", price: 750, image: "https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/120084034_149789893481757_7302012572883328312_n.jpg?_nc_cat=107&_nc_sid=8bfeb9&_nc_ohc=DzoX77AId4EAX9kJe0D&_nc_ht=scontent-atl3-1.xx&oh=f9fd7819e22e90231817bfc3036beb94&oe=5FA1F040", store: craveEat)
+Item.create(name: "Strawberry Lemonade(bottled)", price: 55, image: "https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/118749877_125371205947372_928502690782919185_n.jpg?_nc_cat=107&_nc_sid=8bfeb9&_nc_ohc=bVbdSgQksX4AX9OVKNB&_nc_ht=scontent-atl3-1.xx&oh=f9b0ea7ef39ccd20ae1dc73a9e48919e&oe=5FB18609", description: "Also available in 16oz for 45php", store: kkQuenchers)
 
-Item.all.each do |item|
-	item.description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-	item.save
-end
+Item.create(name: "Tteokbokki", price: 125, image: "https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/120161244_149789993481747_1746864882115635758_n.jpg?_nc_cat=106&_nc_sid=8bfeb9&_nc_ohc=TPKvA0Iu3n0AX-Vqq35&_nc_ht=scontent-atl3-1.xx&oh=151d8e01b42a0340eedaab4f14e97fcc&oe=5FA2DB63", description: "Stir-fried rice cakes", store: craveEat)
+
+Item.create(name: "Japchae Party Pack", price: 750, image: "https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/120084034_149789893481757_7302012572883328312_n.jpg?_nc_cat=107&_nc_sid=8bfeb9&_nc_ohc=DzoX77AId4EAX9kJe0D&_nc_ht=scontent-atl3-1.xx&oh=f9fd7819e22e90231817bfc3036beb94&oe=5FA1F040", description: "Good for 10pax, great for parties and Samgyupsal nights", store: craveEat)
