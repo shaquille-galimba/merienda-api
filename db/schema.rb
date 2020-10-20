@@ -33,6 +33,7 @@ ActiveRecord::Schema.define(version: 2020_10_06_085551) do
     t.string "delivery_location"
     t.string "store_link"
     t.string "logo"
+    t.string "password_digest"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
