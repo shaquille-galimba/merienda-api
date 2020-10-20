@@ -7,6 +7,7 @@ class CreateStores < ActiveRecord::Migration[6.0]
       t.string :delivery_location
       t.string :store_link
       t.string :logo
+			t.string :password_digest
 
       t.timestamps
     end

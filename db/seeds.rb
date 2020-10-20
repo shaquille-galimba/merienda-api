@@ -8,6 +8,7 @@
 
 craveEat = Store.create(
 	name: "Crave Eat",
+	password: "Nirosacmar14",
 	description: "Yummy craveable snacks & dishes that will satisfy your hunger",
 	owner: "Niro Kim Sacmar",
 	delivery_location: "Cavite",
@@ -17,6 +18,7 @@ craveEat = Store.create(
 
 kkQuenchers = Store.create(
 	name: "K&K's Quenchers",
+	password: "Kkquenchers1",
 	description: "quench·er • a refreshing drink • 100% fresh & healthy drinks in a bottle",
 	owner: "Keith Onthar & Khrislene Loria",
 	delivery_location: "Citihomes",

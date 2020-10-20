@@ -4,8 +4,7 @@ Rails.application.routes.draw do
 		namespace :v1 do
 			resources :stores, only: [:index, :create]
 			resources :items, only: [:create, :destroy]
-			post "/login", to: "stores#login"
-			get "/auto_login", to: "users#auto_login"
+			post "/login", to: "auth#create"
 		end
 	end
 end
